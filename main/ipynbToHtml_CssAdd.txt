@@ -1,0 +1,58 @@
+pour conv .ipynb .. .html 
+
+jupyter nbconvert --to html ASTD.ipynb
+
+
+
+mon css : (ajoute dans la balise de style)
+
+
+body {
+  /* A4 width is approximately 210mm or around 793px at 96 DPI */
+  max-width: 1300px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  box-sizing: border-box !important;
+}
+
+/* This targets the main content container in Colab */
+.notebook-main-content {
+  max-width: 1300px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Alternative if the above doesn't work for your specific Colab setup */
+.colab-df-container, .output_wrapper, .cell {
+  max-width: 1300px !important;
+  box-sizing: border-box !important;
+}
+
+
+.jp-CodeMirrorEditor{
+  border: 2px solid #000000 !important;  /* Google blue color */
+  border-radius: 6px !important;
+  margin: 6px 0 !important;
+  padding: 4px !important;
+}
+
+.jp-RenderedImage {
+  border: 2px solid hsl(0, 0%, 0%) !important;  /* Black border */
+  border-radius: 6px !important;
+  margin: 6px 0 !important;
+  padding: 4px !important;
+  max-width: 90% !important;  /* Reduces image width to 70% of container */
+  height: auto !important;    /* Maintains aspect ratio */
+  display: block !important;  /* Makes centering work */
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.jp-RenderedText{
+  border: 1px solid #5d5d5d !important;  /* Google blue color */
+  border-radius: 1px !important;
+  margin: 6px 0 !important;
+  padding: 4px !important;
+}

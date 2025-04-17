@@ -69,4 +69,11 @@ sauvegarde tt les codes/resultat dans LABR.html
 
 
 
---> IMDB,ASTD,TESA ... hado tal mn b3d hh .. 
+IMDB : 
+ -------------------- pretraitement..
+
+TESA : 
+-----------------------praitraitement.. 
+
+ASTD : 
+-----------------------------------------balancing
