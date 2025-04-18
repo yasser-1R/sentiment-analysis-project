@@ -12,8 +12,9 @@ preparation de fichier, (elimination de class 3 (neutre))
 analyse 
 pretraitement,
 balancing,
+vectorisation,
 
-   -> creation de 3 fichier , normal , preproceced , preproceced+balanced 
+   -> creation de 4 fichier , normal ,normal+balanced, preproceced , preproceced+balanced 
 aplication de 8 algorithms de ML .. 
 
 Multinomial Naive Bayes

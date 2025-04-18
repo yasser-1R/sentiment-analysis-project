@@ -4,6 +4,16 @@ jupyter nbconvert --to html ASTD.ipynb
 
 
 
+
+
+
+
+
+
+
+
+
+
 mon css : (ajoute dans la balise de style)
 
 
