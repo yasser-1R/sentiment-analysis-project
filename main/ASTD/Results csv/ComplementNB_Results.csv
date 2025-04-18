@@ -1,0 +1,17 @@
+﻿Dataset,Algorithm,Confusion Matrix,Accuracy,Precision_0,Recall_0,F1_0,Support_0,Precision_1,Recall_1,F1_1,Support_1,Number of Positive Samples,Number of Negative Samples,Execution Time (s),Model Group
+ASTD,ComplementNB (default),"[[294  26]
+ [ 96  68]]",0.7479,0.7538,0.9188,0.8282,320,0.7234,0.4146,0.5271,164,777,1642,0.0107,ComplementNB
+ASTD_Balanced,ComplementNB (default),"[[274  49]
+ [ 25 309]]",0.8874,0.9164,0.8483,0.881,323,0.8631,0.9251,0.8931,334,1642,1642,0.0065,ComplementNB
+ASTD_Preprocessed,ComplementNB (default),"[[288  32]
+ [ 69  95]]",0.7913,0.8067,0.9,0.8508,320,0.748,0.5793,0.6529,164,777,1642,0.004,ComplementNB
+ASTD_Preprocessed_Balanced,ComplementNB (default),"[[270  53]
+ [ 23 311]]",0.8843,0.9215,0.8359,0.8766,323,0.8544,0.9311,0.8911,334,1642,1642,0.0049,ComplementNB
+ASTD,ComplementNB (alpha=0.05),"[[268  52]
+ [ 56 108]]",0.7769,0.8272,0.8375,0.8323,320,0.675,0.6585,0.6667,164,777,1642,0.0052,ComplementNB
+ASTD_Balanced,ComplementNB (alpha=0.1),"[[285  38]
+ [ 30 304]]",0.8965,0.9048,0.8824,0.8934,323,0.8889,0.9102,0.8994,334,1642,1642,0.0064,ComplementNB
+ASTD_Preprocessed,ComplementNB (alpha=0.5),"[[278  42]
+ [ 61 103]]",0.7872,0.8201,0.8688,0.8437,320,0.7103,0.628,0.6667,164,777,1642,0.0043,ComplementNB
+ASTD_Preprocessed_Balanced,ComplementNB (alpha=0.5),"[[273  50]
+ [ 23 311]]",0.8889,0.9223,0.8452,0.8821,323,0.8615,0.9311,0.895,334,1642,1642,0.0052,ComplementNB

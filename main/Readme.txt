@@ -76,5 +76,5 @@ IMDB :
 TESA : 
 -----------------------praitraitement.. 
 
-ASTD : 
------------------------------------------balancing
+ASTD (same as LABR  .. delete classe : neutre,irrelevant) : 
+COMPLETED 

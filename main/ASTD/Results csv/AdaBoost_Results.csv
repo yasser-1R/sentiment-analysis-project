@@ -1,0 +1,17 @@
+﻿Dataset,Algorithm,Confusion Matrix,Accuracy,Precision_0,Recall_0,F1_0,Support_0,Precision_1,Recall_1,F1_1,Support_1,Number of Positive Samples,Number of Negative Samples,Execution Time (s),Model Group
+ASTD,AdaBoost (default),"[[312   8]
+ [143  21]]",0.688,0.6857,0.975,0.8052,320,0.7241,0.128,0.2176,164,777,1642,0.7342,AdaBoost
+ASTD_Balanced,AdaBoost (default),"[[144 179]
+ [ 65 269]]",0.6286,0.689,0.4458,0.5414,323,0.6004,0.8054,0.688,334,1642,1642,0.8213,AdaBoost
+ASTD_Preprocessed,AdaBoost (default),"[[316   4]
+ [143  21]]",0.6963,0.6885,0.9875,0.8113,320,0.84,0.128,0.2222,164,777,1642,0.4107,AdaBoost
+ASTD_Preprocessed_Balanced,AdaBoost (default),"[[299  24]
+ [221 113]]",0.6271,0.575,0.9257,0.7094,323,0.8248,0.3383,0.4798,334,1642,1642,0.4284,AdaBoost
+ASTD,AdaBoost (n_estimators=500),"[[312   8]
+ [133  31]]",0.7087,0.7011,0.975,0.8157,320,0.7949,0.189,0.3054,164,777,1642,5.4387,AdaBoost
+ASTD_Balanced,AdaBoost (n_estimators=500),"[[198 125]
+ [ 77 257]]",0.6925,0.72,0.613,0.6622,323,0.6728,0.7695,0.7179,334,1642,1642,5.8476,AdaBoost
+ASTD_Preprocessed,AdaBoost (n_estimators=500),"[[309  11]
+ [114  50]]",0.7417,0.7305,0.9656,0.8318,320,0.8197,0.3049,0.4444,164,777,1642,4.3334,AdaBoost
+ASTD_Preprocessed_Balanced,AdaBoost (n_estimators=500),"[[274  49]
+ [110 224]]",0.758,0.7135,0.8483,0.7751,323,0.8205,0.6707,0.7381,334,1642,1642,4.2472,AdaBoost
