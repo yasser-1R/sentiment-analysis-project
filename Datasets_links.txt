@@ -1,0 +1,9 @@
+Nom du Dataset 			  | Langue  | Type de Données| Lien
+
+LABR - Arabic Book Reviews 	  | Arabe   | Avis de livres | https://github.com/mohamedadaly/LABR
+
+ASTD - Arabic Sentiment Tweets    | Arabe   | Twitter 	     | https://github.com/mahmoudnabil/ASTD
+
+IMDB Movie Reviews 		  | Anglais | Avis de films  | https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
+
+Twitter Entity Sentiment Analysis | Anglais | Twitter 	     | https://www.kaggle.com/datasets/jp797498e/twitter-entity-sentiment-analysis
