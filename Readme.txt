@@ -1,10 +1,11 @@
+
 (LABR - Arabic Book Reviews
 ASTD - Arabic Sentiment Tweets 
 IMDB Movie Reviews
 TESA - Twitter Entity Sentiment Analysis)
 
 
-
+Progress .. :
 
 LABR :
 analyse avant preparation , 
