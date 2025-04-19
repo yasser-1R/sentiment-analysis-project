@@ -72,10 +72,11 @@ sauvegarde tt les codes/resultat dans LABR.html
 
 
 IMDB : 
- -------------------- pretraitement..
+ ---------------------------- start execution
+..
 
 TESA : 
------------------------praitraitement.. 
+------------------------------- start execution
 
 ASTD (same as LABR  .. delete classe : neutre,irrelevant) : 
 COMPLETED 
