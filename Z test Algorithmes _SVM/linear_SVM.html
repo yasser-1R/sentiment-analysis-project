@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Linear SVM Recap</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.7;
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fdfdfd;
+            color: #333;
+        }
+        h1, h2 {
+            color: #004080;
+        }
+        h2 {
+            margin-top: 40px;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 15px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #eaeaea;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🧠 Full Recap: Linear SVM — Explained Mathematically & Intuitively</h1>
+
+    <h2>⚙️ 1. Problem Setup</h2>
+    <ul>
+        <li>A set of points <code>xᵢ ∈ ℝᵈ</code></li>
+        <li>Each with a label <code>yᵢ ∈ {−1, +1}</code></li>
+        <li><strong>Goal:</strong> Find a hyperplane that separates the classes with the largest margin possible.</li>
+    </ul>
+
+    <h2>🧱 2. Hyperplane Equation</h2>
+    <p>A hyperplane in ℝ<sup>d</sup> is defined as: <code>w · x + b = 0</code></p>
+    <ul>
+        <li><code>w</code>: normal vector (controls direction and tilt)</li>
+        <li><code>b</code>: bias (offset)</li>
+    </ul>
+    <p>The plane divides space into:</p>
+    <ul>
+        <li><code>w · x + b > 0 ⇒ class +1</code></li>
+        <li><code>w · x + b < 0 ⇒ class -1</code></li>
+    </ul>
+
+    <h2>🧮 3. Classification Constraint</h2>
+    <p>For perfect separation, we want:</p>
+    <p><code>yᵢ (w · xᵢ + b) ≥ 1</code></p>
+    <p>This ensures each point is on the correct side and outside the margin zone.</p>
+
+    <h2>📏 4. Margin Definition</h2>
+    <p>Two parallel margin planes:</p>
+    <ul>
+        <li><code>w · x + b = +1</code></li>
+        <li><code>w · x + b = -1</code></li>
+    </ul>
+    <p><strong>Margin =</strong> <code>2 / ||w||</code></p>
+    <p>To maximize the margin, minimize <code>||w||</code>.</p>
+
+    <h2>🎯 5. Hard-Margin SVM (Perfect Separation)</h2>
+    <p>Optimization problem:</p>
+    <pre><code>minimize   (1/2) * ||w||²
+subject to yᵢ (w · xᵢ + b) ≥ 1  ∀i</code></pre>
+    <p>This works only if the data is perfectly separable.</p>
+
+    <h2>❗ 6. Soft-Margin SVM (Real-world version)</h2>
+    <p>When data isn’t perfectly separable, we introduce slack variables <code>ξᵢ</code>:</p>
+    <pre><code>yᵢ (w · xᵢ + b) ≥ 1 − ξᵢ   with ξᵢ ≥ 0</code></pre>
+    <p>We now minimize both margin size and total violations:</p>
+    <pre><code>minimize   (1/2) * ||w||² + C ∑ ξᵢ</code></pre>
+    <ul>
+        <li><code>ξᵢ</code>: how much point i breaks the margin rule</li>
+        <li><code>C</code>: penalty for constraint violations</li>
+        <li>High C → strict, less tolerance</li>
+        <li>Low C → more flexible, allows errors</li>
+    </ul>
+
+    <h2>🔍 7. Prediction Rule</h2>
+    <p>Once trained, we predict a new point <code>x</code> using:</p>
+    <pre><code>ŷ = sign(w · x + b)</code></pre>
+
+    <h2>🧠 Summary of Key Concepts</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Concept</th>
+                <th>Formula</th>
+                <th>Meaning</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hyperplane</td>
+                <td><code>w · x + b = 0</code></td>
+                <td>Decision boundary</td>
+            </tr>
+            <tr>
+                <td>Margin</td>
+                <td><code>2 / ||w||</code></td>
+                <td>Space between margin planes</td>
+            </tr>
+            <tr>
+                <td>Constraint</td>
+                <td><code>yᵢ (w · xᵢ + b) ≥ 1</code></td>
+                <td>Ensures correct classification</td>
+            </tr>
+            <tr>
+                <td>Slack <code>ξᵢ</code></td>
+                <td>≥ 0</td>
+                <td>Allows violation (soft margin)</td>
+            </tr>
+            <tr>
+                <td>Regularization <code>C</code></td>
+                <td><code>min (1/2) * ||w||² + C ∑ ξᵢ</code></td>
+                <td>Controls trade-off: margin vs violations</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
