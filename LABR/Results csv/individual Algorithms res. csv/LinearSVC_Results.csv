@@ -1,0 +1,17 @@
+﻿Dataset,Algorithm,Confusion Matrix,Accuracy,Precision_0,Recall_0,F1_0,Support_0,Precision_1,Recall_1,F1_1,Support_1,Number of Positive Samples,Number of Negative Samples,Execution Time (s),Model Group
+LABR,LinearSVC (default),"[[ 770  857]
+ [ 236 7819]]",0.8871,0.7654,0.4733,0.5849,1627,0.9012,0.9707,0.9347,8055,40528,7881,0.7547,LinearSVC
+LABR_Balanced,LinearSVC (default),"[[8034  100]
+ [ 601 7477]]",0.9568,0.9304,0.9877,0.9582,8134,0.9868,0.9256,0.9552,8078,40528,40528,1.5855,LinearSVC
+LABR_Preprocessed,LinearSVC (default),"[[ 697  892]
+ [ 314 7776]]",0.8754,0.6894,0.4386,0.5362,1589,0.8971,0.9612,0.928,8090,40514,7877,0.9759,LinearSVC
+LABR_Preprocessed_Balanced,LinearSVC (default),"[[7533  565]
+ [1153 6955]]",0.894,0.8673,0.9302,0.8976,8098,0.9249,0.8578,0.8901,8108,40514,40514,4.816,LinearSVC
+LABR,LinearSVC (C=2.0),"[[ 817  810]
+ [ 293 7762]]",0.8861,0.736,0.5022,0.597,1627,0.9055,0.9636,0.9337,8055,40528,7881,1.473,LinearSVC
+LABR_Balanced,LinearSVC (C=5.0),"[[8065   69]
+ [ 599 7479]]",0.9588,0.9309,0.9915,0.9602,8134,0.9909,0.9258,0.9573,8078,40528,40528,7.7383,LinearSVC
+LABR_Preprocessed,LinearSVC (C=1.0),"[[ 697  892]
+ [ 314 7776]]",0.8754,0.6894,0.4386,0.5362,1589,0.8971,0.9612,0.928,8090,40514,7877,1.0063,LinearSVC
+LABR_Preprocessed_Balanced,LinearSVC (C=5.0),"[[7682  416]
+ [1158 6950]]",0.9029,0.869,0.9486,0.9071,8098,0.9435,0.8572,0.8983,8108,40514,40514,9.8436,LinearSVC

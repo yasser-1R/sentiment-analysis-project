@@ -1,0 +1,17 @@
+﻿Dataset,Algorithm,Confusion Matrix,Accuracy,Precision_0,Recall_0,F1_0,Support_0,Precision_1,Recall_1,F1_1,Support_1,Number of Positive Samples,Number of Negative Samples,Execution Time (s),Model Group
+LABR,RandomForest (default),"[[ 202 1425]
+ [  32 8023]]",0.8495,0.8632,0.1242,0.2171,1627,0.8492,0.996,0.9168,8055,40528,7881,372.2562,RandomForest
+LABR_Balanced,RandomForest (default),"[[8048   86]
+ [ 208 7870]]",0.9819,0.9748,0.9894,0.9821,8134,0.9892,0.9743,0.9817,8078,40528,40528,705.8386,RandomForest
+LABR_Preprocessed,RandomForest (default),"[[ 224 1365]
+ [  47 8043]]",0.8541,0.8266,0.141,0.2409,1589,0.8549,0.9942,0.9193,8090,40514,7877,126.9855,RandomForest
+LABR_Preprocessed_Balanced,RandomForest (default),"[[7987  111]
+ [ 186 7922]]",0.9817,0.9772,0.9863,0.9817,8098,0.9862,0.9771,0.9816,8108,40514,40514,261.1649,RandomForest
+LABR,RandomForest (n_estimators=10),"[[ 362 1265]
+ [ 150 7905]]",0.8539,0.707,0.2225,0.3385,1627,0.8621,0.9814,0.9179,8055,40528,7881,35.7044,RandomForest
+LABR_Balanced,RandomForest (n_estimators=500),"[[8044   90]
+ [ 186 7892]]",0.983,0.9774,0.9889,0.9831,8134,0.9887,0.977,0.9828,8078,40528,40528,3611.2251,RandomForest
+LABR_Preprocessed,RandomForest (n_estimators=10),"[[ 344 1245]
+ [ 171 7919]]",0.8537,0.668,0.2165,0.327,1589,0.8641,0.9789,0.9179,8090,40514,7877,13.5333,RandomForest
+LABR_Preprocessed_Balanced,RandomForest (n_estimators=300),"[[7984  114]
+ [ 152 7956]]",0.9836,0.9813,0.9859,0.9836,8098,0.9859,0.9813,0.9836,8108,40514,40514,797.3102,RandomForest

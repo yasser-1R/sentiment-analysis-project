@@ -75,8 +75,8 @@ IMDB :
  ---------------------------- start execution
 ..
 
-TESA : 
-------------------------------- start execution
+TESA , LABR : 
+COMPLETED (no NuSVC)
 
-ASTD (same as LABR  .. delete classe : neutre,irrelevant) : 
+ASTD : 
 COMPLETED 

@@ -99,9 +99,9 @@ fig.add_trace(go.Surface(
 
 # === Axis layout
 axis_template = lambda title: dict(
-    title=dict(text=title, font=dict(color='lightgray')),
-    tickfont=dict(color='lightgray'),
-    range=[-1.3, 1.3],  # Changed from [-4, 4] to [-1.5, 1.5]
+    title=dict(text=title, font=dict(color='silver')),
+    tickfont=dict(color='silver'),
+    range=[-1.3, 1.3],  # Changed from [-4, 4]
     backgroundcolor='white',
     gridcolor='lightgray',
     showgrid=True

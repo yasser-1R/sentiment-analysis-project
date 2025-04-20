@@ -1,0 +1,17 @@
+﻿Dataset,Algorithm,Confusion Matrix,Accuracy,Precision_0,Recall_0,F1_0,Support_0,Precision_1,Recall_1,F1_1,Support_1,Number of Positive Samples,Number of Negative Samples,Execution Time (s),Model Group
+LABR,MultinomialNB (default),"[[   3 1624]
+ [   0 8055]]",0.8323,1.0,0.0018,0.0037,1627,0.8322,1.0,0.9084,8055,40528,7881,0.0462,MultinomialNB
+LABR_Balanced,MultinomialNB (default),"[[7799  335]
+ [1407 6671]]",0.8925,0.8472,0.9588,0.8995,8134,0.9522,0.8258,0.8845,8078,40528,40528,0.0658,MultinomialNB
+LABR_Preprocessed,MultinomialNB (default),"[[   8 1581]
+ [   1 8089]]",0.8366,0.8889,0.005,0.01,1589,0.8365,0.9999,0.9109,8090,40514,7877,0.0306,MultinomialNB
+LABR_Preprocessed_Balanced,MultinomialNB (default),"[[7005 1093]
+ [1580 6528]]",0.8351,0.816,0.865,0.8398,8098,0.8566,0.8051,0.8301,8108,40514,40514,0.0435,MultinomialNB
+LABR,MultinomialNB (alpha=0.01),"[[ 403 1224]
+ [ 102 7953]]",0.863,0.798,0.2477,0.378,1627,0.8666,0.9873,0.9231,8055,40528,7881,0.0451,MultinomialNB
+LABR_Balanced,MultinomialNB (alpha=0.0001),"[[7920  214]
+ [ 725 7353]]",0.9421,0.9161,0.9737,0.944,8134,0.9717,0.9103,0.94,8078,40528,40528,0.111,MultinomialNB
+LABR_Preprocessed,MultinomialNB (alpha=0.01),"[[ 244 1345]
+ [  56 8034]]",0.8553,0.8133,0.1536,0.2583,1589,0.8566,0.9931,0.9198,8090,40514,7877,0.0378,MultinomialNB
+LABR_Preprocessed_Balanced,MultinomialNB (alpha=0.0001),"[[7245  853]
+ [1390 6718]]",0.8616,0.839,0.8947,0.866,8098,0.8873,0.8286,0.8569,8108,40514,40514,0.0567,MultinomialNB
